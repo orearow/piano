@@ -120,11 +120,11 @@ img {
 
 .aboutimage{
     max-width: 33%;
-    max-height: 40%;
+    max-height: 33%;
     color: white;
     border-right: #f18d9e;
     background-color: #98dbc6;
-    flex: 50%;
+    flex: 33%;
     padding: 20px;
 }
 .aboutmetitle {
