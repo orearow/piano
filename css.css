@@ -3,32 +3,30 @@
     src: url(images/font/happy.ttf);
 }
 
-ul {
-    list-style-type: none;
-    /*margin: 0;*/
-    padding: 10px;
-    overflow: hidden;
-    background-color: #98dbc6;
-}
-
-li {
-    float: left;
-}
-
-li a {
+#menu li a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #98dbc6;
+
 }
 
-li a:hover {
+#menu li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#menu li a:hover {
     background-color: #f18d9e;
 }
 
-.active {
-    background-color: #4CAF50;
+#menu {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #98dbc6;
 }
 
 .header {
@@ -56,14 +54,7 @@ div.transbox {
     background-color: white;
     border: 5px solid black;
     opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
-
-/*div.transbox p {*/
-    /*margin: 5%;*/
-    /*font-weight: bold;*/
-    /*color: #000000;*/
-/*}*/
 
 img {
     max-width: 100%;
@@ -120,7 +111,7 @@ img {
 
 .aboutimage{
     max-width: 33%;
-    max-height: 20%;
+    max-height: 33%;
     color: white;
     border-right: #f18d9e;
     background-color: #98dbc6;
@@ -158,3 +149,4 @@ table, th, td {
     background-color: #98dbc6;
     border: 5px solid red;
 }
+
